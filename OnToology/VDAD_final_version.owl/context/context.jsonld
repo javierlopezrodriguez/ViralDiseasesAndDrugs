@@ -1,0 +1,414 @@
+{
+  "@context" : {
+    "Antiretroviral" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Antiretroviral"
+    },
+    "Effect" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#Effect"
+    },
+    "Infection" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Infection"
+    },
+    "companyName" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#companyName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "mentionsDrug" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#mentionsDrug",
+      "@type" : "@id"
+    },
+    "term_status" : {
+      "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"
+    },
+    "drugMarketedByCompany" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#drugMarketedByCompany",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "PharmaceuticalCompany" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#PharmaceuticalCompany"
+    },
+    "isBroaderThan" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#isBroaderThan",
+      "@type" : "@id"
+    },
+    "treatsDisorder" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder",
+      "@type" : "@id"
+    },
+    "InfectiousAgent" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#InfectiousAgent"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Country" : {
+      "@id" : "http://dbpedia.org/resource/Country"
+    },
+    "mentions" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#mentions",
+      "@type" : "@id"
+    },
+    "Organization" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Organization"
+    },
+    "IDO_0000473" : {
+      "@id" : "http://purl.obolibrary.org/obo/IDO_0000473"
+    },
+    "GroupVII" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupVII"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "NCBITaxon_10239" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+    },
+    "containsParagraph" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#containsParagraph",
+      "@type" : "@id"
+    },
+    "isMentionedIn" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isMentionedIn",
+      "@type" : "@id"
+    },
+    "isDirectorOfCompany" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isDirectorOfCompany",
+      "@type" : "@id"
+    },
+    "isCausedBy" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isCausedBy",
+      "@type" : "@id"
+    },
+    "Director" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Director"
+    },
+    "ActiveSubstance" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#ActiveSubstance"
+    },
+    "Protozoa" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Protozoa"
+    },
+    "mentionsDisorder" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#mentionsDisorder",
+      "@type" : "@id"
+    },
+    "ViralInfection" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#ViralInfection"
+    },
+    "VIDO_0000505" : {
+      "@id" : "http://purl.obolibrary.org/obo/VIDO_0000505"
+    },
+    "NCBITaxon_35278" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_35278"
+    },
+    "commercializesDrug" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesDrug",
+      "@type" : "@id"
+    },
+    "agentName" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#agentName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Doctor" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Doctor"
+    },
+    "hasSymptom" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#hasSymptom",
+      "@type" : "@id"
+    },
+    "commercializesWithName" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesWithName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isTreatedWithDrug" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#isTreatedWithDrug",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "contains" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#contains",
+      "@type" : "@id"
+    },
+    "NCBITaxon_2731342" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2731342"
+    },
+    "VO_0000333" : {
+      "@id" : "http://purl.obolibrary.org/obo/VO_0000333"
+    },
+    "Fungi" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Fungi"
+    },
+    "Paper" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#Paper"
+    },
+    "Prion" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Prion"
+    },
+    "treatsPatient" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient",
+      "@type" : "@id"
+    },
+    "GroupVI" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupVI"
+    },
+    "GroupV" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupV"
+    },
+    "Disease" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#Disease"
+    },
+    "NCBITaxon_2" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    },
+    "NCBITaxon_35268" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_35268"
+    },
+    "InfectiousDisease" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#InfectiousDisease"
+    },
+    "affects" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#affects",
+      "@type" : "@id"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "Virus" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Virus"
+    },
+    "containsSentence" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#containsSentence",
+      "@type" : "@id"
+    },
+    "Drug" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#Drug"
+    },
+    "drugGivenByDoctor" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#drugGivenByDoctor",
+      "@type" : "@id"
+    },
+    "Headquarters" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Headquarters"
+    },
+    "Sentence" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#Sentence"
+    },
+    "Antiviral" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Antiviral"
+    },
+    "IntracellularInfection" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#IntracellularInfection"
+    },
+    "isSymptomOfDisease" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#isSymptomOfDisease",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Building" : {
+      "@id" : "https://w3id.org/bot#Building"
+    },
+    "isAffectedBy" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isAffectedBy",
+      "@type" : "@id"
+    },
+    "GroupIII" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupIII"
+    },
+    "isDestroyedBy" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isDestroyedBy",
+      "@type" : "@id"
+    },
+    "isNarrowerThanActiveSubstance" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isNarrowerThanActiveSubstance",
+      "@type" : "@id"
+    },
+    "GroupI" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupI"
+    },
+    "causes" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#causes",
+      "@type" : "@id"
+    },
+    "isHeadquartersOfCompany" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isHeadquartersOfCompany",
+      "@type" : "@id"
+    },
+    "treatsDisorderOfPatientWithDrug" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorderOfPatientWithDrug",
+      "@type" : "@id"
+    },
+    "Symptom" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#Symptom"
+    },
+    "prevents" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#prevents",
+      "@type" : "@id"
+    },
+    "Zone" : {
+      "@id" : "https://w3id.org/bot#Zone"
+    },
+    "IDO_0000586" : {
+      "@id" : "http://purl.obolibrary.org/obo/IDO_0000586"
+    },
+    "causedByDrug" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#causedByDrug",
+      "@type" : "@id"
+    },
+    "AntimicrobialAgent" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#AntimicrobialAgent"
+    },
+    "commercializesDrugWithNameInCountry" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesDrugWithNameInCountry",
+      "@type" : "@id"
+    },
+    "GroupII" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupII"
+    },
+    "isBroaderThanDisease" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isBroaderThanDisease",
+      "@type" : "@id"
+    },
+    "NAryCommercialDrugInfo" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#NAryCommercialDrugInfo"
+    },
+    "marketsDrug" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#marketsDrug",
+      "@type" : "@id"
+    },
+    "Microbe" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Microbe"
+    },
+    "Company" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Company"
+    },
+    "isContraindicatedTo" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#isContraindicatedTo",
+      "@type" : "@id"
+    },
+    "NCBITaxon_35325" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_35325"
+    },
+    "mentionsChemicalSubstance" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#mentionsChemicalSubstance",
+      "@type" : "@id"
+    },
+    "treatsWithDrug" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug",
+      "@type" : "@id"
+    },
+    "NAryTreatmentInfo" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#NAryTreatmentInfo"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "ChemicalSubstance" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#ChemicalSubstance"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "hasEffect" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#hasEffect",
+      "@type" : "@id"
+    },
+    "isNarrowerThanDisease" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isNarrowerThanDisease",
+      "@type" : "@id"
+    },
+    "IDO_0000436" : {
+      "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+    },
+    "NCBITaxon_2169561" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2169561"
+    },
+    "BibliographicResource" : {
+      "@id" : "http://purl.org/dc/terms/BibliographicResource"
+    },
+    "isNarrowerThan" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#isNarrowerThan",
+      "@type" : "@id"
+    },
+    "IDO_0000472" : {
+      "@id" : "http://purl.obolibrary.org/obo/IDO_0000472"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "NCBITaxon_35237" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_35237"
+    },
+    "hasDirector" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#hasDirector",
+      "@type" : "@id"
+    },
+    "hasActiveSubstance" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#hasActiveSubstance",
+      "@type" : "@id"
+    },
+    "Disorder" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#Disorder"
+    },
+    "NCBITaxon_35301" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_35301"
+    },
+    "Retrovirus" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Retrovirus"
+    },
+    "Paragraph" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#Paragraph"
+    },
+    "givesDrug" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#givesDrug",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "GroupIV" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupIV"
+    },
+    "isBroaderThanActiveSubstance" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#isBroaderThanActiveSubstance",
+      "@type" : "@id"
+    },
+    "destroys" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#destroys",
+      "@type" : "@id"
+    },
+    "isActiveSubstanceOfDrug" : {
+      "@id" : "https://w3id.org/def/DRUGS4COVID19#isActiveSubstanceOfDrug",
+      "@type" : "@id"
+    },
+    "commercializesInCountry" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesInCountry",
+      "@type" : "@id"
+    },
+    "NCBITaxon_4751" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4751"
+    },
+    "hasHeadquarters" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#hasHeadquarters",
+      "@type" : "@id"
+    },
+    "ExtracellularInfection" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#ExtracellularInfection"
+    },
+    "Bacteria" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Bacteria"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "Viremia" : {
+      "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#Viremia"
+    }
+  }
+}
