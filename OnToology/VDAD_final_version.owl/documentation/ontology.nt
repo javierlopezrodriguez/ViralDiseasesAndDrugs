@@ -313,7 +313,7 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 # https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder
 <https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the respective disorder. " .
+<https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the respective disorder." .
 <https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder> <http://www.w3.org/2000/01/rdf-schema#label> "treats disorder" .
 # 
 # https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorderOfPatientWithDrug
@@ -323,12 +323,12 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 # https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient
 <https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the patient treated. " .
+<https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the patient treated." .
 <https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient> <http://www.w3.org/2000/01/rdf-schema#label> "treats patient" .
 # 
 # https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug
 <https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the drug used." .
+<https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the drug used." .
 <https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug> <http://www.w3.org/2000/01/rdf-schema#label> "treats with drug" .
 # 
 # 
@@ -663,7 +663,6 @@ _:genid20 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_35237> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/ViralDiseasesAndDrugs#Virus> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupI> <http://www.w3.org/2000/01/rdf-schema#comment> "double-stranded DNA virus, belonging to group I of Baltimore classification" .
-<https://w3id.org/def/ViralDiseasesAndDrugs#GroupI> <http://www.w3.org/2000/01/rdf-schema#label> "Group I" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupI> <http://www.w3.org/2000/01/rdf-schema#label> "group i" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.wikidata.org/entity/Q2901600> .
 # 
@@ -672,7 +671,6 @@ _:genid20 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupII> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_2731342> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupII> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/ViralDiseasesAndDrugs#Virus> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupII> <http://www.w3.org/2000/01/rdf-schema#comment> "single-stranded DNA virus, belonging to group II of Baltimore classification" .
-<https://w3id.org/def/ViralDiseasesAndDrugs#GroupII> <http://www.w3.org/2000/01/rdf-schema#label> "Group I I" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupII> <http://www.w3.org/2000/01/rdf-schema#label> "group ii" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupII> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.wikidata.org/entity/Q9094469> .
 # 
@@ -681,7 +679,6 @@ _:genid20 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIII> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_35325> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIII> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/ViralDiseasesAndDrugs#Virus> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIII> <http://www.w3.org/2000/01/rdf-schema#comment> "double-stranded RNA virus, belonging to group III of Baltimore classification" .
-<https://w3id.org/def/ViralDiseasesAndDrugs#GroupIII> <http://www.w3.org/2000/01/rdf-schema#label> "Group I I I" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIII> <http://www.w3.org/2000/01/rdf-schema#label> "group iii" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIII> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.wikidata.org/entity/Q3307900> .
 # 
@@ -690,7 +687,6 @@ _:genid20 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_35278> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/ViralDiseasesAndDrugs#Virus> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIV> <http://www.w3.org/2000/01/rdf-schema#comment> "positive-sense single stranded RNA virus, belonging to group IV of Baltimore classification" .
-<https://w3id.org/def/ViralDiseasesAndDrugs#GroupIV> <http://www.w3.org/2000/01/rdf-schema#label> "Group I V" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIV> <http://www.w3.org/2000/01/rdf-schema#label> "group iv" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupIV> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.wikidata.org/entity/Q9094478> .
 # 
@@ -699,7 +695,6 @@ _:genid20 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_35301> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/ViralDiseasesAndDrugs#Virus> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupV> <http://www.w3.org/2000/01/rdf-schema#comment> "negative-sense single stranded RNA virus, belonging to group V of Baltimore classification" .
-<https://w3id.org/def/ViralDiseasesAndDrugs#GroupV> <http://www.w3.org/2000/01/rdf-schema#label> "Group V" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupV> <http://www.w3.org/2000/01/rdf-schema#label> "group v" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupV> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.wikidata.org/entity/Q9285327> .
 # 
@@ -708,7 +703,6 @@ _:genid20 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_2169561> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/ViralDiseasesAndDrugs#Virus> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVI> <http://www.w3.org/2000/01/rdf-schema#comment> "single-stranded RNA reverse transcriptase virus, belonging to group VI of Baltimore classification" .
-<https://w3id.org/def/ViralDiseasesAndDrugs#GroupVI> <http://www.w3.org/2000/01/rdf-schema#label> "Group V I" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVI> <http://www.w3.org/2000/01/rdf-schema#label> "group vi" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.wikidata.org/entity/Q3933801> .
 # 
@@ -717,7 +711,6 @@ _:genid20 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVII> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_35268> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVII> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/ViralDiseasesAndDrugs#Virus> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVII> <http://www.w3.org/2000/01/rdf-schema#comment> "double-stranded DNA reverse transcriptase virus, belonging to group VII of Baltimore classification" .
-<https://w3id.org/def/ViralDiseasesAndDrugs#GroupVII> <http://www.w3.org/2000/01/rdf-schema#label> "Group V I I" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVII> <http://www.w3.org/2000/01/rdf-schema#label> "group vii" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#GroupVII> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.wikidata.org/entity/Q3754200> .
 # 
@@ -793,7 +786,6 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/ViralDiseasesAndDrugs#commercializesWithName> .
 _:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#NAryCommercialDrugInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "the class that represents the n-ary relationship of commercializing a drug with a name in a country" .
-<https://w3id.org/def/ViralDiseasesAndDrugs#NAryCommercialDrugInfo> <http://www.w3.org/2000/01/rdf-schema#label> "N Ary Commercial Drug Info" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#NAryCommercialDrugInfo> <http://www.w3.org/2000/01/rdf-schema#label> "n-ary commercial drug info" .
 # 
 # https://w3id.org/def/ViralDiseasesAndDrugs#NAryTreatmentInfo
@@ -811,7 +803,6 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug> .
 _:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/DRUGS4COVID19#Drug> .
 <https://w3id.org/def/ViralDiseasesAndDrugs#NAryTreatmentInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder" .
-<https://w3id.org/def/ViralDiseasesAndDrugs#NAryTreatmentInfo> <http://www.w3.org/2000/01/rdf-schema#label> "N Ary Treatment Info" .
 <https://w3id.org/def/ViralDiseasesAndDrugs#NAryTreatmentInfo> <http://www.w3.org/2000/01/rdf-schema#label> "n-ary treatment info" .
 # 
 # https://w3id.org/def/ViralDiseasesAndDrugs#PharmaceuticalCompany

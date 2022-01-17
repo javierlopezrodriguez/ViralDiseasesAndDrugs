@@ -964,8 +964,6 @@
     "@value" : "double-stranded DNA virus, belonging to group I of Baltimore classification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Group I"
-  }, {
     "@value" : "group i"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
@@ -983,8 +981,6 @@
     "@value" : "single-stranded DNA virus, belonging to group II of Baltimore classification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Group I I"
-  }, {
     "@value" : "group ii"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
@@ -1002,8 +998,6 @@
     "@value" : "double-stranded RNA virus, belonging to group III of Baltimore classification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Group I I I"
-  }, {
     "@value" : "group iii"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
@@ -1021,8 +1015,6 @@
     "@value" : "positive-sense single stranded RNA virus, belonging to group IV of Baltimore classification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Group I V"
-  }, {
     "@value" : "group iv"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
@@ -1040,8 +1032,6 @@
     "@value" : "negative-sense single stranded RNA virus, belonging to group V of Baltimore classification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Group V"
-  }, {
     "@value" : "group v"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
@@ -1059,8 +1049,6 @@
     "@value" : "single-stranded RNA reverse transcriptase virus, belonging to group VI of Baltimore classification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Group V I"
-  }, {
     "@value" : "group vi"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
@@ -1078,8 +1066,6 @@
     "@value" : "double-stranded DNA reverse transcriptase virus, belonging to group VII of Baltimore classification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Group V I I"
-  }, {
     "@value" : "group vii"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
@@ -1206,8 +1192,6 @@
     "@value" : "the class that represents the n-ary relationship of commercializing a drug with a name in a country"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "N Ary Commercial Drug Info"
-  }, {
     "@value" : "n-ary commercial drug info"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
@@ -1224,8 +1208,6 @@
     "@value" : "the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "N Ary Treatment Info"
-  }, {
     "@value" : "n-ary treatment info"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
@@ -1749,7 +1731,7 @@
   "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the respective disorder. "
+    "@value" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the respective disorder."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "treats disorder"
@@ -1767,7 +1749,7 @@
   "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the patient treated. "
+    "@value" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the patient treated."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "treats patient"
@@ -1776,7 +1758,7 @@
   "@id" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the drug used."
+    "@value" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the drug used."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "treats with drug"
