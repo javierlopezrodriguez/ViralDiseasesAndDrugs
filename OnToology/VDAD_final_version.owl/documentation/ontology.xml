@@ -552,7 +552,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder">
-        <rdfs:comment>A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the respective disorder. </rdfs:comment>
+        <rdfs:comment>A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the respective disorder.</rdfs:comment>
         <rdfs:label>treats disorder</rdfs:label>
     </owl:ObjectProperty>
     
@@ -572,7 +572,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient">
-        <rdfs:comment>A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the patient treated. </rdfs:comment>
+        <rdfs:comment>A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the patient treated.</rdfs:comment>
         <rdfs:label>treats patient</rdfs:label>
     </owl:ObjectProperty>
     
@@ -582,7 +582,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug">
-        <rdfs:comment>A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the drug used.</rdfs:comment>
+        <rdfs:comment>A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the drug used.</rdfs:comment>
         <rdfs:label>treats with drug</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1166,7 +1166,6 @@ Um bot:Building é uma parte do mundo físico ou do mundo virtual que está iner
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35237"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/ViralDiseasesAndDrugs#Virus"/>
         <rdfs:comment>double-stranded DNA virus, belonging to group I of Baltimore classification</rdfs:comment>
-        <rdfs:label>Group I</rdfs:label>
         <rdfs:label>group i</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://www.wikidata.org/entity/Q2901600"/>
     </owl:Class>
@@ -1180,7 +1179,6 @@ Um bot:Building é uma parte do mundo físico ou do mundo virtual que está iner
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2731342"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/ViralDiseasesAndDrugs#Virus"/>
         <rdfs:comment>single-stranded DNA virus, belonging to group II of Baltimore classification</rdfs:comment>
-        <rdfs:label>Group I I</rdfs:label>
         <rdfs:label>group ii</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://www.wikidata.org/entity/Q9094469"/>
     </owl:Class>
@@ -1194,7 +1192,6 @@ Um bot:Building é uma parte do mundo físico ou do mundo virtual que está iner
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35325"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/ViralDiseasesAndDrugs#Virus"/>
         <rdfs:comment>double-stranded RNA virus, belonging to group III of Baltimore classification</rdfs:comment>
-        <rdfs:label>Group I I I</rdfs:label>
         <rdfs:label>group iii</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://www.wikidata.org/entity/Q3307900"/>
     </owl:Class>
@@ -1208,7 +1205,6 @@ Um bot:Building é uma parte do mundo físico ou do mundo virtual que está iner
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35278"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/ViralDiseasesAndDrugs#Virus"/>
         <rdfs:comment>positive-sense single stranded RNA virus, belonging to group IV of Baltimore classification</rdfs:comment>
-        <rdfs:label>Group I V</rdfs:label>
         <rdfs:label>group iv</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://www.wikidata.org/entity/Q9094478"/>
     </owl:Class>
@@ -1222,7 +1218,6 @@ Um bot:Building é uma parte do mundo físico ou do mundo virtual que está iner
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35301"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/ViralDiseasesAndDrugs#Virus"/>
         <rdfs:comment>negative-sense single stranded RNA virus, belonging to group V of Baltimore classification</rdfs:comment>
-        <rdfs:label>Group V</rdfs:label>
         <rdfs:label>group v</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://www.wikidata.org/entity/Q9285327"/>
     </owl:Class>
@@ -1236,7 +1231,6 @@ Um bot:Building é uma parte do mundo físico ou do mundo virtual que está iner
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2169561"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/ViralDiseasesAndDrugs#Virus"/>
         <rdfs:comment>single-stranded RNA reverse transcriptase virus, belonging to group VI of Baltimore classification</rdfs:comment>
-        <rdfs:label>Group V I</rdfs:label>
         <rdfs:label>group vi</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://www.wikidata.org/entity/Q3933801"/>
     </owl:Class>
@@ -1250,7 +1244,6 @@ Um bot:Building é uma parte do mundo físico ou do mundo virtual que está iner
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35268"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/ViralDiseasesAndDrugs#Virus"/>
         <rdfs:comment>double-stranded DNA reverse transcriptase virus, belonging to group VII of Baltimore classification</rdfs:comment>
-        <rdfs:label>Group V I I</rdfs:label>
         <rdfs:label>group vii</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://www.wikidata.org/entity/Q3754200"/>
     </owl:Class>
@@ -1371,7 +1364,6 @@ Um bot:Building é uma parte do mundo físico ou do mundo virtual que está iner
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:comment>the class that represents the n-ary relationship of commercializing a drug with a name in a country</rdfs:comment>
-        <rdfs:label>N Ary Commercial Drug Info</rdfs:label>
         <rdfs:label>n-ary commercial drug info</rdfs:label>
     </owl:Class>
     
@@ -1400,7 +1392,6 @@ Um bot:Building é uma parte do mundo físico ou do mundo virtual que está iner
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:comment>the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder</rdfs:comment>
-        <rdfs:label>N Ary Treatment Info</rdfs:label>
         <rdfs:label>n-ary treatment info</rdfs:label>
     </owl:Class>
     

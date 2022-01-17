@@ -1,0 +1,3886 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "fi", "sv", "pt", "en", "it", "fr", "zh-cn", "es", "undefined", "cs", "sk", "fa", "da", "tr", "nl", "ca" ],
+    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/def/DRUGS4COVID19", "http://purl.obolibrary.org/obo", "http://www.w3.org/2000/01/rdf-schema", "http://dbpedia.org/resource", "https://w3id.org/def/ViralDiseasesAndDrugs", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1", "http://purl.org/dc/elements/1.1" ],
+    "title" : {
+      "en" : "Viral Diseases And Drugs Ontology"
+    },
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#",
+    "version" : "1.0",
+    "author" : [ "Lucia Sanchez Gonzalez", "Javier Lopez Rodriguez" ],
+    "description" : {
+      "en" : "Ontology that represents viral infectious diseases, drugs used to treat such diseases, the companies that produce the drugs, and the relation of scientific publications to the drugs and diseases."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://purl.org/NET/rdflicense/cc-by4.0",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Lucia Sanchez Gonzalez",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Javier Lopez Rodriguez",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Viral Diseases And Drugs Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "114",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "193",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "113",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "224",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "130",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "217",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "192",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "104",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "100",
+    "type" : "owl:Thing"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Company",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q783794",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Company",
+      "undefined" : "Company"
+    },
+    "subClasses" : [ "16" ],
+    "comment" : {
+      "undefined" : "entity that represents an association of people (natural, legal or both) with a specific objective"
+    },
+    "id" : "14",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#Effect",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Effect",
+      "en" : "Effect",
+      "es" : "Efecto",
+      "undefined" : "Effect"
+    },
+    "comment" : {
+      "en" : "Something produced; a result or consequence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Fungi",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q764",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Fungi",
+      "undefined" : "Fungi"
+    },
+    "comment" : {
+      "undefined" : "group of organisms from the kingdom Fungi that include unicellular microorganisms such as yeasts and molds, as well as multicellular organisms such as mushrooms"
+    },
+    "id" : "27",
+    "superClasses" : [ "28", "36" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_2169561",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_2169561",
+      "undefined" : "single-stranded RNA retrovirus"
+    },
+    "subClasses" : [ "4" ],
+    "attributes" : [ "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupIII",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q3307900",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GroupIII",
+      "undefined" : "group iii"
+    },
+    "comment" : {
+      "undefined" : "double-stranded RNA virus, belonging to group III of Baltimore classification"
+    },
+    "id" : "42",
+    "superClasses" : [ "2", "43" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_35237",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_35237",
+      "undefined" : "double-stranded DNA virus"
+    },
+    "subClasses" : [ "41" ],
+    "attributes" : [ "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupVI",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q3933801",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GroupVI",
+      "undefined" : "group vi"
+    },
+    "comment" : {
+      "undefined" : "single-stranded RNA reverse transcriptase virus, belonging to group VI of Baltimore classification"
+    },
+    "id" : "4",
+    "superClasses" : [ "2", "37" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Headquarters",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q7540126",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Headquarters",
+      "undefined" : "headquarters"
+    },
+    "comment" : {
+      "undefined" : "central home of an company"
+    },
+    "id" : "88",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Building",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Gebäude",
+      "IRI-based" : "Building",
+      "fi" : "Rakennus",
+      "sv" : "Byggnad",
+      "pt" : "Edifício",
+      "en" : "Building",
+      "it" : "Edificio",
+      "fr" : "Bâtiment",
+      "zh-cn" : "建筑",
+      "es" : "Edificio",
+      "undefined" : "Building",
+      "cs" : "Budova",
+      "sk" : "Budova",
+      "fa" : "ساختمان",
+      "da" : "Bygning",
+      "ca" : "Edifici",
+      "tr" : "Bina",
+      "nl" : "Gebouw"
+    },
+    "subClasses" : [ "88" ],
+    "comment" : {
+      "de" : "Eine eigenständige Einheit der bebauten Umgebung mit einer charakteristischen räumlichen Struktur. Es besteht die Absicht das es eine Funktion oder Nutzung erlaubt [ISO 12006-2:2013]. Ein bot:Building ist Teil der realen und virtuellen Welt und hat eine räumliche Ausdehnung. Es ist enthalten in einem Grundstück und kann ein oder mehrere Stockwerke enthalten, die vertical miteinander verbunden sind.",
+      "fi" : "Rakennetun ympäristön itsenäinen osa, jolla on ominainen avaruudellinen rakenne, ja joka on tarkoitettu palvelemaan ainakin yhtä funktiota tai käyttäjäaktiviteettia [ISO 12006-2:2013]. bot:Building on fyysisen tai virtuaalisen maailman osa, joka luonnostaan sekä sijaitsee tässä maailmassa että omaa kolmiulotteiset tilalliset ulottuvuudet, sijaitsee tontilla, ja se voi sisältää yhden tai useamman kerroksen jotka ovat pystysuunnassa yhteydessä.",
+      "sv" : "En oberoende enhet i den byggda miljön med en karaktäristisk rumslig struktur som stödjer minst en funktion eller användaraktivitet.  [ISO 12006-2:2013]. En bot:Building är en del av den fysiska världen eller en virtuell värld som har en spatial utsträckning i tre dimensioner, ligger på en plats, och kan ha en eller flera vertikalt förbundna våningar.",
+      "pt" : "Uma unidade independente do ambiente construído com uma estrutura espacial característica, destinada a servir pelo menos uma função do utilizador [ISO 12006-2:2013].\nUm bot:Building é uma parte do mundo físico ou do mundo virtual que está inerentemente localizado neste mundo e que tem uma extensão espacial tridimensional, que está contido num sítio de construção e que contém um ou mais pisos que estão conectados verticalmente.",
+      "en" : "An independent unit of the built environment with a characteristic spatial structure, intended to serve at least one function or user activity [ISO 12006-2:2013]. A bot:Building is a part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent, is contained in a building site, and can contain one or more storeys that are vertically connected.",
+      "it" : "Un'unità indipendente dell'ambiente costruito con una struttura spaziale caratteristica, destinato a servire almeno una funzione o attività degli utenti [ISO 12006-2:2013]. Un bot:Building è parte del mondo fisico o virtuale che si trova intrinsecamente in questo mondo e ha una estensione spaziale tridimensionale, è contenuto in un sito e può contenere uno o più piani che sono connessi verticalmente.",
+      "fr" : "Une unité indépendante de l'environnement bâti avec une structure spatiale caractéristique, conçue pour répondre à une fonction ou une activité de l'utilisateur [ISO 12006-2:2013]",
+      "zh-cn" : "具有特定空间结构的建筑环境独立单元，旨在服务至少一种功能或用户活动[ISO 12006-2：2013]。 bot:Building是物理或虚拟世界的一部分，其既存在于其中，又具有3D空间范围。bot:Building包含在建筑工地中，并且可以包含一个或多个垂直连接的楼层。",
+      "es" : "Unidad independiente del entorno construido con una estructura espacial característica, destinada a servir al menos una función o actividad del usuario [ISO 12006-2: 2013]. Un bot:Building es tanto una parte del mundo físico o virtual que se encuentra inherentemente situado en este mundo y que tiene una extensión espacial 3D, se encuentra en un emplazamiento de edificación, y puede contener uno o más pisos conectados verticalmente.",
+      "cs" : "Nezávislá jednotka v (stavebním) prostředí či veřejném prostoru, s charakteristickou prostorovou strukturou a formou, která má sloužit alespoň pro jednu činnost nebo funkci uživatele [ISO 12006-2: 2013]. \nBot:Building je součástí fyzického nebo virtuálního světa, který je neodmyslitelně umístěn jak ve fyzickém světě, tak má 3D virtuální prostorový rozsah, je umístěn na staveništi (\"Site\") a může obsahovat jedno nebo víc podlaží, která jsou vertikálně propojena. ",
+      "sk" : "Nezávislá jednotka v (stavebnom) prostredí či verejnom priestore, s charakteristickou priestorovou štruktúrou a formou, ktorá má slúžiť aspoň pre jednu činnosť alebo funkciu uživateľa [ISO 12006-2:2013]. Bot:Building je súčasťou fyzického alebo virtuálneho sveta, ktorý je neodmyslitelnľ umiestnľný ako vo fyzickom svete, tak má 3D virtuálny priestorový rozsah, je umiestnený na stavenisku (\"Site\") a môže obsahovať jedno alebo viac podlaží, ktoré sú vertikálne prepojené. ",
+      "fa" : "یک واحد مستقل با ساختار مکانی مشخص از محیط ساخت وساز، که برای ارایه‌ی حداقل یک عملکرد یا فعالیت کاربری در نظرگرفته شده است [ISO 12006-2:2013]. یک bot:Building یک بخش از دنیای فیزیکی یا یک دنیای مجازی است که اساسا در این دنیا قرار دارد و دارای حدود مکانی سه بعدی است، دریک سایت ساختمان قرار گرفته ، و میتواند دربرگیرنده‌ی یک یا چند طبقه باشد که به صورت عمودی به هم متصل شده اند.",
+      "da" : "En uafhængig enhed i det bebyggede miljø med en karakteristisk rumlig struktur, beregnet til at betjene mindst en funktion eller brugeraktivitet [ISO 12006-2: 2013]. En bot:Building er en del af den fysiske verden eller en virtuel verden, der i sagens natur både er lokaliseret i denne verden og har en 3D rumlig afgrænsning, er indeholdt på et byggefelt og kan indeholde en eller flere etager, der er lodret forbundet.",
+      "ca" : "Unitat independent de l’entorn construït amb una estructura espacial característica, destinada a servir almenys una funció o activitat de l’usuari [ISO 12006-2: 2013]. Un bot:Building és tant una part del món físic o virtual que es troba inherentment situat en aquest món i que té una extensió espacial 3D, es troba en un emplaçament d’edificació, i pot contenir un o més pisos connectats verticalment.",
+      "tr" : "Bir yapılı ortamına sahip, ve karakteri mekansal olan ve en az bir funksiyona veya kullanıcı etkinligini desteleyen bir bağımsız parcadir. ",
+      "nl" : "Een onafhankelijke entiteit met een ruimtelijke structuur die onderdeel is van de gebouwde omgeving, en bedoeld is om minimaal één functie of gebruikersactiviteit te bedienen [ISO 12006-2:2013]. Een bot:Building is deel van de fysieke wereld of een virtuele wereld dat zowel gelokaliseerd kan worden in deze wereld als een ruimtelijke omvang heeft, is deel van een gebouwsite, en kan één of meerder verdiepingen bevatten die verticaal verbonden zijn."
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_4751",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_4751",
+      "undefined" : "Fungi"
+    },
+    "subClasses" : [ "27" ],
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#AntimicrobialAgent",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q68541106",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AntimicrobialAgent",
+      "undefined" : "antimicrobial agent"
+    },
+    "subClasses" : [ "10" ],
+    "comment" : {
+      "undefined" : "substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans"
+    },
+    "id" : "93",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#Paragraph",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Paragraph",
+      "en" : "Paragraph",
+      "es" : "Párrafo",
+      "undefined" : "Paragraph"
+    },
+    "comment" : {
+      "en" : "One of a series of subsections each usually devoted to one idea and each usually marked by the beginning of a new line, indentation, increased interlinear space, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Prion",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q47051",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Prion",
+      "undefined" : "Prion"
+    },
+    "comment" : {
+      "undefined" : "protein infectious particle; pathogenic type of misfolded protein"
+    },
+    "id" : "95",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#Symptom",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Symptom",
+      "en" : "Symptom",
+      "es" : "Síntoma",
+      "undefined" : "Symptom"
+    },
+    "comment" : {
+      "en" : "A physical condition that arises from and accompanies a particular disease and serves as an indication of it"
+    },
+    "attributes" : [ "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_35325",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_35325",
+      "undefined" : "double-stranded RNA virus"
+    },
+    "subClasses" : [ "42" ],
+    "attributes" : [ "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#ActiveSubstance",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveSubstance",
+      "en" : "Active substance",
+      "es" : "Principio activo",
+      "undefined" : "Active Substance"
+    },
+    "comment" : {
+      "en" : "A chemical substance that is the main ingredient of drugs"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Doctor",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q39631",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Doctor",
+      "undefined" : "Doctor"
+    },
+    "comment" : {
+      "undefined" : "person who practices medicine professionally"
+    },
+    "id" : "75",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#InfectiousDisease",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q18123741",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InfectiousDisease",
+      "undefined" : "Infectious Disease"
+    },
+    "comment" : {
+      "undefined" : "disease caused by an infection"
+    },
+    "id" : "21",
+    "superClasses" : [ "107", "22" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupI",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q2901600",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GroupI",
+      "undefined" : "group i"
+    },
+    "comment" : {
+      "undefined" : "double-stranded DNA virus, belonging to group I of Baltimore classification"
+    },
+    "id" : "41",
+    "superClasses" : [ "2", "63" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/VIDO_0000505",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/vido.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VIDO_0000505",
+      "undefined" : "viremia"
+    },
+    "subClasses" : [ "109" ],
+    "attributes" : [ "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupV",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q9285327",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GroupV",
+      "undefined" : "group v"
+    },
+    "comment" : {
+      "undefined" : "negative-sense single stranded RNA virus, belonging to group V of Baltimore classification"
+    },
+    "id" : "1",
+    "superClasses" : [ "2", "110" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_35301",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_35301",
+      "undefined" : "negative-sense single-stranded RNA virus"
+    },
+    "subClasses" : [ "1" ],
+    "attributes" : [ "external" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/VO_0000333",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/vo.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VO_0000333",
+      "undefined" : "Protozoa"
+    },
+    "subClasses" : [ "134" ],
+    "attributes" : [ "external" ],
+    "id" : "133"
+  }, {
+    "iri" : "https://w3id.org/bot#Zone",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Zone",
+      "undefined" : "Zone"
+    },
+    "subClasses" : [ "89" ],
+    "attributes" : [ "external" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupVII",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q3754200",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GroupVII",
+      "undefined" : "group vii"
+    },
+    "comment" : {
+      "undefined" : "double-stranded DNA reverse transcriptase virus, belonging to group VII of Baltimore classification"
+    },
+    "id" : "60",
+    "superClasses" : [ "2", "116" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Viremia",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q1425304",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Viremia",
+      "undefined" : "Viremia"
+    },
+    "intersection" : [ "50", "52" ],
+    "comment" : {
+      "undefined" : "presence of virus in the blood"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "109",
+    "superClasses" : [ "108" ]
+  }, {
+    "iri" : "http://purl.org/dc/terms/BibliographicResource",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BibliographicResource",
+      "en" : "Bibliographic resource",
+      "es" : "Recurso bibliográfico",
+      "undefined" : "Bibliographic Resource"
+    },
+    "subClasses" : [ "143" ],
+    "comment" : {
+      "en" : "A book, article, or other documentary resource"
+    },
+    "attributes" : [ "external" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IDO_0000436",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ido.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IDO_0000436",
+      "undefined" : "infectious disease"
+    },
+    "subClasses" : [ "21" ],
+    "attributes" : [ "external" ],
+    "id" : "107"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#ViralInfection",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ViralInfection",
+      "undefined" : "viral infection"
+    },
+    "comment" : {
+      "undefined" : "an infection caused by a virus"
+    },
+    "id" : "50",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_10239",
+      "undefined" : "Viruses"
+    },
+    "subClasses" : [ "2" ],
+    "attributes" : [ "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organization",
+      "undefined" : "Organization"
+    },
+    "subClasses" : [ "14" ],
+    "attributes" : [ "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#Sentence",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sentence",
+      "en" : "Sentence",
+      "es" : "Frase",
+      "undefined" : "Sentence"
+    },
+    "comment" : {
+      "en" : "A sequence of words capable of standing alone to make an assertion, ask a question, or give a command, usually consisting of a subject and a predicate containing a finite verb"
+    },
+    "attributes" : [ "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Antiretroviral",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q50430310",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Antiretroviral",
+      "undefined" : "Antiretroviral"
+    },
+    "comment" : {
+      "undefined" : "agent used for treating infections caused by retrovirus"
+    },
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person",
+      "undefined" : "Person"
+    },
+    "subClasses" : [ "72", "75" ],
+    "attributes" : [ "external" ],
+    "id" : "73"
+  }, {
+    "instances" : 0,
+    "union" : [ "78", "19", "97", "22" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "105", "94", "143" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://dbpedia.org/resource/Country",
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "undefined" : "Country"
+    },
+    "attributes" : [ "external" ],
+    "id" : "188"
+  }, {
+    "instances" : 0,
+    "union" : [ "105", "143" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "193"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#NAryTreatmentInfo",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NAryTreatmentInfo",
+      "undefined" : "n-ary treatment info"
+    },
+    "comment" : {
+      "undefined" : "the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder"
+    },
+    "id" : "190"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "197",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#Disorder",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Disorder",
+      "en" : "Disorder",
+      "es" : "Desorden",
+      "undefined" : "Disorder"
+    },
+    "subClasses" : [ "22" ],
+    "comment" : {
+      "en" : "A disruption to regular bodily structure and function."
+    },
+    "attributes" : [ "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Infection",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q166231",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Infection",
+      "undefined" : "Infection"
+    },
+    "subClasses" : [ "47", "50", "52" ],
+    "comment" : {
+      "undefined" : "invasion of and multiplication in a host by disease-causing pathogens or organisms"
+    },
+    "id" : "48",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "77",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "163",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "113",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "184",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IDO_0000472",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ido.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IDO_0000472",
+      "undefined" : "extracellular infection"
+    },
+    "subClasses" : [ "52" ],
+    "attributes" : [ "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IDO_0000473",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ido.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IDO_0000473",
+      "undefined" : "intracellular infection"
+    },
+    "subClasses" : [ "47" ],
+    "attributes" : [ "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Virus",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q808",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Virus",
+      "undefined" : "Virus"
+    },
+    "subClasses" : [ "42", "24", "60", "12", "41", "1", "4" ],
+    "comment" : {
+      "undefined" : "non-cellular, submicroscopic infectious agent that replicates only inside the living cells of an organism"
+    },
+    "id" : "2",
+    "superClasses" : [ "28", "70" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "6",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "218",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "208",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Antiviral",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q846227",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Antiviral",
+      "undefined" : "Antiviral"
+    },
+    "subClasses" : [ "9" ],
+    "comment" : {
+      "undefined" : "agent used for treating infections caused by virus"
+    },
+    "id" : "10",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "220",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#IntracellularInfection",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IntracellularInfection",
+      "undefined" : "Intracellular Infection"
+    },
+    "comment" : {
+      "undefined" : "an infection that is located inside of the cells"
+    },
+    "id" : "47",
+    "superClasses" : [ "56", "48" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "222",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "177",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_2731342",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_2731342",
+      "undefined" : "single-stranded DNA virus"
+    },
+    "subClasses" : [ "12" ],
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#ChemicalSubstance",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ChemicalSubstance",
+      "en" : "Chemical substance",
+      "es" : "Compuesto quimico",
+      "undefined" : "Chemical Substance"
+    },
+    "subClasses" : [ "18" ],
+    "comment" : {
+      "en" : "A substance produced by or used in a chemical process"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#Disease",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Disease",
+      "en" : "Disease",
+      "es" : "Enfermedad",
+      "undefined" : "Disease"
+    },
+    "subClasses" : [ "21" ],
+    "comment" : {
+      "en" : "Illness; sickness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Protozoa",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q101274",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Protozoa",
+      "undefined" : "Protozoa"
+    },
+    "comment" : {
+      "undefined" : "unicellular, animal-like microorganisms, sometimes parasitic"
+    },
+    "id" : "134",
+    "superClasses" : [ "28", "133" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_35278",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_35278",
+      "undefined" : "positive-sense single-stranded RNA virus"
+    },
+    "subClasses" : [ "24" ],
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Microbe",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q39833",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Microbe",
+      "undefined" : "Microbe"
+    },
+    "subClasses" : [ "27", "2", "118", "134" ],
+    "comment" : {
+      "undefined" : "microorganism; microscopic living organism"
+    },
+    "id" : "28",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Retrovirus",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q189308",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Retrovirus",
+      "undefined" : "retrovirus"
+    },
+    "union" : [ "60", "4" ],
+    "comment" : {
+      "undefined" : "group of viruses that have a reverse transcription step in their viral cycle"
+    },
+    "attributes" : [ "union" ],
+    "id" : "224"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupIV",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q9094478",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GroupIV",
+      "undefined" : "group iv"
+    },
+    "comment" : {
+      "undefined" : "positive-sense single stranded RNA virus, belonging to group IV of Baltimore classification"
+    },
+    "id" : "24",
+    "superClasses" : [ "2", "25" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#PharmaceuticalCompany",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q19644607",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PharmaceuticalCompany",
+      "undefined" : "pharmaceutical company"
+    },
+    "comment" : {
+      "undefined" : "company in the pharmaceutical industry"
+    },
+    "id" : "16",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupII",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q9094469",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GroupII",
+      "undefined" : "group ii"
+    },
+    "comment" : {
+      "undefined" : "single-stranded DNA virus, belonging to group II of Baltimore classification"
+    },
+    "id" : "12",
+    "superClasses" : [ "2", "13" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "145",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Bacteria",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q10876",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bacteria",
+      "undefined" : "Bacteria"
+    },
+    "comment" : {
+      "undefined" : "unicellular microorganisms from the domain Bacteria"
+    },
+    "id" : "118",
+    "superClasses" : [ "28", "119" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#ExtracellularInfection",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExtracellularInfection",
+      "undefined" : "Extracellular Infection"
+    },
+    "comment" : {
+      "undefined" : "an infection that is located outside of the cells (such as in the blood)"
+    },
+    "id" : "52",
+    "superClasses" : [ "54", "48" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_35268",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_35268",
+      "undefined" : "double-stranded DNA retrovirus"
+    },
+    "subClasses" : [ "60" ],
+    "attributes" : [ "external" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/NCBITaxon_2",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NCBITaxon_2",
+      "undefined" : "Bacteria"
+    },
+    "subClasses" : [ "118" ],
+    "attributes" : [ "external" ],
+    "id" : "119"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#Paper",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Paper",
+      "en" : "Paper",
+      "es" : "Comunicación",
+      "undefined" : "Paper"
+    },
+    "comment" : {
+      "en" : "A document of the corpus, subject of bio-annotations"
+    },
+    "attributes" : [ "external" ],
+    "id" : "143",
+    "superClasses" : [ "142" ]
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#InfectiousAgent",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q170065",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InfectiousAgent",
+      "undefined" : "infectious agent"
+    },
+    "subClasses" : [ "28", "95" ],
+    "comment" : {
+      "undefined" : "biological entity, typically an infectious microorganism or agent (such as virus, bacterium, protozoan, prion or fungus) that causes disease in its host"
+    },
+    "id" : "96"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#NAryCommercialDrugInfo",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NAryCommercialDrugInfo",
+      "undefined" : "n-ary commercial drug info"
+    },
+    "comment" : {
+      "undefined" : "the class that represents the n-ary relationship of commercializing a drug with a name in a country"
+    },
+    "id" : "196"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IDO_0000586",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ido.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IDO_0000586",
+      "undefined" : "infection"
+    },
+    "subClasses" : [ "48" ],
+    "attributes" : [ "external" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "251",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Director",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/entity/Q1162163",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Director",
+      "undefined" : "director"
+    },
+    "comment" : {
+      "undefined" : "person who leads a company"
+    },
+    "id" : "72",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "132",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "130",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#Drug",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Drug",
+      "en" : "Drug",
+      "es" : "Medicamento",
+      "undefined" : "Drug"
+    },
+    "subClasses" : [ "93" ],
+    "comment" : {
+      "en" : "A substance used in treating disorder"
+    },
+    "attributes" : [ "external" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "126",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "217",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "192",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "104",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "100",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "152",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "153",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "154",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "158",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "159",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "160",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "161",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "162",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "168",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "172",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "173",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "174",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "175",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "176",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "178",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "180",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "182",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "183",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "186",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "189",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "191",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "194",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "195",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "198",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "200",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "201",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "202",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "203",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "207",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "210",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "211",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "212",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "213",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "214",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "215",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "185",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "221",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "223",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "235",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "236",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "237",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "238",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "240",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "242",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "243",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "244",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "254",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#levelMESH",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "levelMESH",
+      "en" : "MESH level",
+      "es" : "nivel MESH"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "MESH (Medical Subject Headings) level"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "5"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "22",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/title",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "31",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/elements/1.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "title",
+      "en" : "Title",
+      "es" : "Título"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A related resource from which the described resource is derived"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#isActiveSubstanceOfDrug",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isActiveSubstanceOfDrug",
+      "en" : "Is active substance of drug",
+      "es" : "Es principio activo de medicamento",
+      "undefined" : "is active substance of drug"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A relation between an active substance and a drug it is an ingredient of"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://purl.org/dc/terms/date",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "34",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "date",
+      "en" : "Date",
+      "es" : "Fecha"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A point or period of time associated with an event in the lifecycle of the resource"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#givesDrug",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "givesDrug",
+      "undefined" : "gives drug"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between a doctor and a drug they give as treatment"
+    },
+    "attributes" : [ "object" ],
+    "id" : "35"
+  }, {
+    "range" : "2",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#isSymptomOfDisease",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isSymptomOfDisease",
+      "en" : "Is symptom of disease",
+      "es" : "Es síntoma de enfermedad",
+      "undefined" : "is symptom of disease"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A relation between a symptom and one of the disorders that includes it"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "39"
+  }, {
+    "range" : "2",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "45",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "48",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "48",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "54",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "56",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "2",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "2",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "2",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#drugName",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "drugName",
+      "en" : "Drug name",
+      "es" : "Nombre del medicamento"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "How a drug is called"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#drugMarketedByCompany",
+    "inverse" : "65",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "drugMarketedByCompany",
+      "undefined" : "drug marketed by company"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between a drug and the pharmaceutical company that commercializes it"
+    },
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://purl.org/dc/terms/source",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "source",
+      "en" : "Source",
+      "es" : "Fuente"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A related resource from which the described resource is derived"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "66"
+  }, {
+    "range" : "15",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "70",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "73",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "73",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#mentionsDrug",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "mentionsDrug",
+      "undefined" : "mentions drug"
+    },
+    "superproperty" : [ "79" ],
+    "domain" : "77",
+    "comment" : {
+      "undefined" : "A relation between a text and one of the drugs it speaks of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isBroaderThanDisease",
+    "inverse" : "81",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "isBroaderThanDisease",
+      "undefined" : "is broader than disease"
+    },
+    "superproperty" : [ "82" ],
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "A relation between two diseases in which one is in some way more general than the other"
+    },
+    "attributes" : [ "transitive", "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#isBroaderThan",
+    "inverse" : "83",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isBroaderThan",
+      "en" : "Is broader than",
+      "es" : "es más amplio"
+    },
+    "domain" : "6",
+    "subproperty" : [ "80", "84" ],
+    "comment" : {
+      "en" : "A relation between two things in which one is in some way more general  than the other"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "82"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isDirectorOfCompany",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isDirectorOfCompany",
+      "undefined" : "is director of company"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation in which a person is the director of a company"
+    },
+    "attributes" : [ "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#agentName",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "agentName",
+      "undefined" : "agent name"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between an infectious agent and its name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#isTreatedWithDrug",
+    "inverse" : "92",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isTreatedWithDrug",
+      "en" : "Is treated with drug",
+      "es" : "Es tratado con medicamento",
+      "undefined" : "is treated with drug"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A relation between a disease and one of the drugs that can be used to deal with it"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#destroys",
+    "inverse" : "99",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "destroys",
+      "undefined" : "destroys"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one destroys or inhibits the other"
+    },
+    "attributes" : [ "object" ],
+    "id" : "98"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isNarrowerThanDisease",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "isNarrowerThanDisease",
+      "undefined" : "is narrower than disease"
+    },
+    "superproperty" : [ "83" ],
+    "domain" : "100",
+    "comment" : {
+      "undefined" : "A relation between two diseases in which one is in some way more specific than the other"
+    },
+    "attributes" : [ "transitive", "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#affects",
+    "inverse" : "102",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "affects",
+      "undefined" : "affects"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one has an influence on the other"
+    },
+    "attributes" : [ "object" ],
+    "id" : "101"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#containsSentence",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "containsSentence",
+      "undefined" : "contains sentence"
+    },
+    "superproperty" : [ "106" ],
+    "minCardinality" : "1",
+    "domain" : "104",
+    "comment" : {
+      "undefined" : "A relation between a text and one of its sentences"
+    },
+    "attributes" : [ "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#mapsTo",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "mapsTo",
+      "en" : "Maps to",
+      "es" : "Relacionada con"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A relation between a disease and one of the diseases it is in some way related to"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isMentionedIn",
+    "inverse" : "79",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "isMentionedIn",
+      "undefined" : "is mentioned in"
+    },
+    "domain" : "113",
+    "comment" : {
+      "undefined" : "A relation between an entity of a text and the text that speaks of it"
+    },
+    "attributes" : [ "object" ],
+    "id" : "112"
+  }, {
+    "range" : "116",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "119",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "96",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "96",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "123",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "78",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#disorderName",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "disorderName",
+      "en" : "Disorder name",
+      "es" : "Nombre del desorden"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "How a disorder is called"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "125"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#codeSNOMED",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "codeSNOMED",
+      "en" : "SNOMED code",
+      "undefined" : "Código SNOMED"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "SNOMED (Systematized Nomenclature of Medicine) code"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isAffectedBy",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isAffectedBy",
+      "undefined" : "is affected by"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one is influenced by the other"
+    },
+    "attributes" : [ "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#mentionsChemicalSubstance",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "mentionsChemicalSubstance",
+      "undefined" : "mentions chemical substance"
+    },
+    "superproperty" : [ "79" ],
+    "domain" : "130",
+    "comment" : {
+      "undefined" : "A relation between a text and one of the chemical substances it speaks of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "129"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#containsParagraph",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "containsParagraph",
+      "undefined" : "contains paragraph"
+    },
+    "superproperty" : [ "106" ],
+    "minCardinality" : "1",
+    "domain" : "132",
+    "comment" : {
+      "undefined" : "A relation between a text and one of its paragraphs"
+    },
+    "attributes" : [ "object" ],
+    "id" : "131"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorderOfPatientWithDrug",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "treatsDisorderOfPatientWithDrug",
+      "undefined" : "treats disorder of patient with drug"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between a doctor and the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder"
+    },
+    "attributes" : [ "object" ],
+    "id" : "135"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#drugGivenByDoctor",
+    "inverse" : "35",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "drugGivenByDoctor",
+      "undefined" : "drug given by doctor"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between a drug and the doctor who gives it as treatment"
+    },
+    "attributes" : [ "object" ],
+    "id" : "136"
+  }, {
+    "range" : "28",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesWithName",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "commercializesWithName",
+      "undefined" : "commercializes with name"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between the class that represents the n-ary relationship of commercializing a drug with a name in a country; and the commercial name of the drug"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "138"
+  }, {
+    "range" : "28",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "28",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#activeSubstanceName",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "145",
+    "label" : {
+      "IRI-based" : "activeSubstanceName",
+      "en" : "Active substance name",
+      "es" : "Nombre del princpio activo"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "How an active substance is called"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "144"
+  }, {
+    "range" : "4",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#hasHeadquarters",
+    "inverse" : "148",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "hasHeadquarters",
+      "undefined" : "has headquarters"
+    },
+    "minCardinality" : "1",
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between a company and its headquarters"
+    },
+    "attributes" : [ "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#codeATC",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "codeATC",
+      "en" : "ATC code",
+      "es" : "Código ATC"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "ATC (Anatomical Therapeutic Chemical)  code"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "149"
+  }, {
+    "range" : "1",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "24",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "24",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "60",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#isNarrowerThan",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isNarrowerThan",
+      "en" : "Is narrower than",
+      "es" : "Es más específico"
+    },
+    "domain" : "6",
+    "subproperty" : [ "156", "81" ],
+    "comment" : {
+      "en" : "A relation between two things in which one is in some way more specific than the other"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "83"
+  }, {
+    "range" : "4",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "4",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "1",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "42",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "60",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://purl.org/dc/terms/license",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "163",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "license",
+      "en" : "License",
+      "es" : "Licencia"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A legal document giving official permission to do something with the resource"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "162"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesDrugWithNameInCountry",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "commercializesDrugWithNameInCountry",
+      "undefined" : "commercializes drug with name in country"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between a pharmaceutical company and the class that represents the n-ary relationship of commercializing a drug with a name in a country."
+    },
+    "attributes" : [ "object" ],
+    "id" : "164"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isBroaderThanActiveSubstance",
+    "inverse" : "156",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isBroaderThanActiveSubstance",
+      "undefined" : "is broader than active substance"
+    },
+    "superproperty" : [ "82" ],
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "A relation between two active substances in which one is in some way more general than the other"
+    },
+    "attributes" : [ "transitive", "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#codeMESH",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "codeMESH",
+      "en" : "MESH code",
+      "es" : "Código MESH"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "MESH (Medical Subject Headings) code"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "165"
+  }, {
+    "range" : "42",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "12",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#identifier",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "identifier",
+      "en" : "Identifier",
+      "es" : "Identificador"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "How a paper is identified"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "169"
+  }, {
+    "range" : "24",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "134",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "2",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "2",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "2",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#problem",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "177",
+    "label" : {
+      "IRI-based" : "problem",
+      "en" : "Problem",
+      "es" : "Problema"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "An issue with a paper"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#destroys",
+    "inverse" : "99",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "destroys",
+      "undefined" : "destroys"
+    },
+    "domain" : "10",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one destroys or inhibits the other"
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "178"
+  }, {
+    "range" : "134",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "27",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#hasSymptom",
+    "inverse" : "39",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasSymptom",
+      "en" : "Has symptom",
+      "es" : "Tiene síntoma",
+      "undefined" : "has symptom"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A relation between a disease and one of its symptoms"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "182"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#section",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "184",
+    "label" : {
+      "IRI-based" : "section",
+      "en" : "Section",
+      "es" : "Sección"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The part of a paper in which a paragraph is included"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "183"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#mentions",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "113",
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/DRUGS4COVID19#mentions",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mentions",
+      "undefined" : "mentions"
+    },
+    "domain" : "114",
+    "subproperty" : [ "185", "76", "129" ],
+    "comment" : {
+      "undefined" : "A relation between a text and one of the entities it speaks of "
+    },
+    "attributes" : [ "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#esTratadaConMedicamento",
+    "inverse" : "187",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "esTratadaConMedicamento",
+      "es" : "es tratada con medicamento"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "deprecated", "external" ],
+    "id" : "186"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "treatsWithDrug",
+      "undefined" : "treats with drug"
+    },
+    "domain" : "190",
+    "comment" : {
+      "undefined" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the drug used."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "189"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "treatsDisorder",
+      "undefined" : "treats disorder"
+    },
+    "domain" : "190",
+    "comment" : {
+      "undefined" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the respective disorder."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "191"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isNarrowerThanActiveSubstance",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isNarrowerThanActiveSubstance",
+      "undefined" : "is narrower than active substance"
+    },
+    "superproperty" : [ "83" ],
+    "domain" : "192",
+    "comment" : {
+      "undefined" : "A relation between two active substances in which one is in some way more specific than the other"
+    },
+    "attributes" : [ "transitive", "object" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isCausedBy",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isCausedBy",
+      "undefined" : "is caused by"
+    },
+    "domain" : "50",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one is originated by the other"
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "194"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesWithName",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "197",
+    "label" : {
+      "IRI-based" : "commercializesWithName",
+      "undefined" : "commercializes with name"
+    },
+    "domain" : "196",
+    "comment" : {
+      "undefined" : "A relation between the class that represents the n-ary relationship of commercializing a drug with a name in a country; and the commercial name of the drug"
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "195"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesInCountry",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "commercializesInCountry",
+      "undefined" : "commercializes in country"
+    },
+    "domain" : "196",
+    "comment" : {
+      "undefined" : "A relation between the class that represents the n-ary relationship of commercializing a drug with a name in a country; and the country where the drug is commercialized."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "198"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isHeadquartersOfCompany",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isHeadquartersOfCompany",
+      "undefined" : "is headquarters of company"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between a headquarters and a company it belongs to"
+    },
+    "attributes" : [ "object" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "treatsPatient",
+      "undefined" : "treats patient"
+    },
+    "domain" : "190",
+    "comment" : {
+      "undefined" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the patient treated."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "199"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesDrug",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "commercializesDrug",
+      "undefined" : "commercializes drug"
+    },
+    "domain" : "196",
+    "comment" : {
+      "undefined" : "A relation between the class that represents the n-ary relationship of commercializing a drug with a name in a country; and the commercialized drug."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "200"
+  }, {
+    "range" : "95",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#hasActiveSubstance",
+    "inverse" : "32",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasActiveSubstance",
+      "en" : "Has active substance",
+      "es" : "Tiene principio activo",
+      "undefined" : "has active substance"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A relation between a drug and its active substance"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "202"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#levelATC",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "204",
+    "label" : {
+      "IRI-based" : "levelATC",
+      "en" : "ATC level",
+      "es" : "Nivel ATC"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "ATC (Anatomical Therapeutic Chemical) level"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "203"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#causes",
+    "inverse" : "206",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "causes",
+      "undefined" : "causes"
+    },
+    "domain" : "96",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one originates the other"
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "205"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#text",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "208",
+    "label" : {
+      "IRI-based" : "text",
+      "en" : "Text",
+      "es" : "Texto"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The actual words of a paragraph or sentence"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "207"
+  }, {
+    "range" : "60",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "4",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isCausedBy",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "isCausedBy",
+      "undefined" : "is caused by"
+    },
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one is originated by the other"
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "211"
+  }, {
+    "range" : "60",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "range" : "1",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "60",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "60",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "4",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#mentionsDisorder",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "mentionsDisorder",
+      "undefined" : "mentions disorder"
+    },
+    "superproperty" : [ "79" ],
+    "domain" : "217",
+    "comment" : {
+      "undefined" : "A relation between a text and one of the disorders it speaks of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "185"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isDestroyedBy",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isDestroyedBy",
+      "undefined" : "is destroyed by"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one is destroyed or inhibited by the other"
+    },
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#mentions",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "181",
+    "label" : {
+      "IRI-based" : "mentions",
+      "en" : "Mentions",
+      "es" : "Menciona"
+    },
+    "domain" : "193",
+    "comment" : {
+      "en" : "A relation between a text (a paper, a paragraph or a sentece) and one of the entities it speaks of"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "219"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#companyName",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "218",
+    "label" : {
+      "IRI-based" : "companyName",
+      "undefined" : "company name"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between a company and its name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "221"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#synonym",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "220",
+    "label" : {
+      "IRI-based" : "synonym",
+      "en" : "Synonym",
+      "es" : "Sinónimo"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "List of synonyms of a disease"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#marketsDrug",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "marketsDrug",
+      "undefined" : "markets drug"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation between a pharmaceutical company and the drug it commercializes"
+    },
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#prevents",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "prevents",
+      "en" : "Prevents",
+      "es" : "Previene",
+      "undefined" : "prevents"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A relation between a drug and one of the diseases it keeps from occurring"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "225"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#scientificName",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "222",
+    "label" : {
+      "IRI-based" : "scientificName",
+      "en" : "Scientific name",
+      "es" : "Nombre científico"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The scientific name of a drug"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "226"
+  }, {
+    "range" : "90",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "range" : "133",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "107",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "142",
+    "domain" : "143",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "110",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "108",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#isContraindicatedTo",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "isContraindicatedTo",
+      "en" : "Is contraindicated to",
+      "es" : "Está contraindicado para",
+      "undefined" : "is contraindicated to"
+    },
+    "domain" : "78",
+    "comment" : {
+      "en" : "A relation between a drug and one of the diseases it is advised against"
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "234"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#hasActiveSubstance",
+    "inverse" : "32",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasActiveSubstance",
+      "en" : "Has active substance",
+      "es" : "Tiene principio activo",
+      "undefined" : "has active substance"
+    },
+    "domain" : "78",
+    "comment" : {
+      "en" : "A relation between a drug and its active substance"
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "235"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#treatsDisorder",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "treatsDisorder",
+      "en" : "Treats disorder",
+      "es" : "Trata desorden",
+      "undefined" : "treats disorder"
+    },
+    "domain" : "78",
+    "comment" : {
+      "en" : "A relation between a drug and one of the diseases it deals with"
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "236"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#hasEffect",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasEffect",
+      "en" : "Has effect",
+      "es" : "Tiene efecto",
+      "undefined" : "has effect"
+    },
+    "domain" : "78",
+    "comment" : {
+      "en" : "A relation between a drug and an effect it causes"
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "237"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#causedByDrug",
+    "inverse" : "239",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "causedByDrug",
+      "en" : "Caused by drug",
+      "es" : "Causado por medicamento",
+      "undefined" : "caused by drug"
+    },
+    "domain" : "29",
+    "comment" : {
+      "en" : "A relation between an effect and a drug that causes it"
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "238"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#hasDirector",
+    "inverse" : "85",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "hasDirector",
+      "undefined" : "has director"
+    },
+    "minCardinality" : "1",
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A relation in which an organization has a director"
+    },
+    "attributes" : [ "object" ],
+    "id" : "240"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#contains",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "contains",
+      "en" : "Contains",
+      "es" : "Contiene"
+    },
+    "domain" : "143",
+    "subproperty" : [ "131", "103" ],
+    "comment" : {
+      "en" : "A relatiion between a whole and one of its parts"
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "241"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#destroys",
+    "inverse" : "99",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "destroys",
+      "undefined" : "destroys"
+    },
+    "domain" : "93",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one destroys or inhibits the other"
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "242"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#destroys",
+    "inverse" : "99",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "224",
+    "label" : {
+      "IRI-based" : "destroys",
+      "undefined" : "destroys"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "A relation between two entities in which one destroys or inhibits the other"
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "243"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#hasSymptom",
+    "inverse" : "39",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "hasSymptom",
+      "en" : "Has symptom",
+      "es" : "Tiene síntoma",
+      "undefined" : "has symptom"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "A relation between a disease and one of its symptoms"
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "244"
+  }, {
+    "range" : "48",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "89",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "63",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#trataEnfermedad",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "trataEnfermedad",
+      "es" : "trata enfermedad"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "deprecated", "external" ],
+    "id" : "187"
+  }, {
+    "range" : "93",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "36",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "37",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "251",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "seeAlso",
+      "en" : "See also"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A resource that might provide additional information about the subject resource"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "254"
+  }, {
+    "iri" : "http://purl.org/dc/terms/abstract",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "250",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "abstract",
+      "en" : "Abstract",
+      "es" : "Resumen"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A summary of the resource"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "255"
+  } ]
+}
