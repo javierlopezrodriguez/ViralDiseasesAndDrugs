@@ -1,7 +1,7 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
-    "languages" : [ "de", "fi", "sv", "pt", "en", "it", "fr", "zh-cn", "es", "undefined", "cs", "sk", "fa", "da", "ca", "nl", "tr" ],
+    "languages" : [ "de", "sv", "fi", "pt", "en", "it", "fr", "zh-cn", "es", "undefined", "cs", "sk", "fa", "da", "nl", "ca", "tr" ],
     "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/def/DRUGS4COVID19", "http://purl.obolibrary.org/obo", "http://www.w3.org/2000/01/rdf-schema", "http://dbpedia.org/resource", "https://w3id.org/def/ViralDiseasesAndDrugs", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1", "http://purl.org/dc/elements/1.1" ],
     "title" : {
       "en" : "Viral Diseases And Drugs Ontology"
@@ -22,12 +22,12 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Javier Lopez Rodriguez",
+        "value" : "Lucia Sanchez Gonzalez",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Lucia Sanchez Gonzalez",
+        "value" : "Javier Lopez Rodriguez",
         "type" : "label"
       } ],
       "versionInfo" : [ {
@@ -115,10 +115,10 @@
     "id" : "133",
     "type" : "owl:Class"
   }, {
-    "id" : "90",
+    "id" : "60",
     "type" : "owl:Class"
   }, {
-    "id" : "60",
+    "id" : "90",
     "type" : "owl:Class"
   }, {
     "id" : "109",
@@ -357,7 +357,7 @@
     },
     "label" : {
       "IRI-based" : "Company",
-      "undefined" : "company"
+      "undefined" : "Company"
     },
     "subClasses" : [ "16" ],
     "comment" : {
@@ -394,7 +394,7 @@
     },
     "label" : {
       "IRI-based" : "Fungi",
-      "undefined" : "fungi"
+      "undefined" : "Fungi"
     },
     "comment" : {
       "undefined" : "group of organisms from the kingdom Fungi that include unicellular microorganisms such as yeasts and molds, as well as multicellular organisms such as mushrooms"
@@ -556,14 +556,14 @@
       "fa" : "ساختمان",
       "da" : "Bygning",
       "nl" : "Gebouw",
-      "ca" : "Edifici",
-      "tr" : "Bina"
+      "tr" : "Bina",
+      "ca" : "Edifici"
     },
     "subClasses" : [ "88" ],
     "comment" : {
       "de" : "Eine eigenständige Einheit der bebauten Umgebung mit einer charakteristischen räumlichen Struktur. Es besteht die Absicht das es eine Funktion oder Nutzung erlaubt [ISO 12006-2:2013]. Ein bot:Building ist Teil der realen und virtuellen Welt und hat eine räumliche Ausdehnung. Es ist enthalten in einem Grundstück und kann ein oder mehrere Stockwerke enthalten, die vertical miteinander verbunden sind.",
-      "fi" : "Rakennetun ympäristön itsenäinen osa, jolla on ominainen avaruudellinen rakenne, ja joka on tarkoitettu palvelemaan ainakin yhtä funktiota tai käyttäjäaktiviteettia [ISO 12006-2:2013]. bot:Building on fyysisen tai virtuaalisen maailman osa, joka luonnostaan sekä sijaitsee tässä maailmassa että omaa kolmiulotteiset tilalliset ulottuvuudet, sijaitsee tontilla, ja se voi sisältää yhden tai useamman kerroksen jotka ovat pystysuunnassa yhteydessä.",
       "sv" : "En oberoende enhet i den byggda miljön med en karaktäristisk rumslig struktur som stödjer minst en funktion eller användaraktivitet.  [ISO 12006-2:2013]. En bot:Building är en del av den fysiska världen eller en virtuell värld som har en spatial utsträckning i tre dimensioner, ligger på en plats, och kan ha en eller flera vertikalt förbundna våningar.",
+      "fi" : "Rakennetun ympäristön itsenäinen osa, jolla on ominainen avaruudellinen rakenne, ja joka on tarkoitettu palvelemaan ainakin yhtä funktiota tai käyttäjäaktiviteettia [ISO 12006-2:2013]. bot:Building on fyysisen tai virtuaalisen maailman osa, joka luonnostaan sekä sijaitsee tässä maailmassa että omaa kolmiulotteiset tilalliset ulottuvuudet, sijaitsee tontilla, ja se voi sisältää yhden tai useamman kerroksen jotka ovat pystysuunnassa yhteydessä.",
       "pt" : "Uma unidade independente do ambiente construído com uma estrutura espacial característica, destinada a servir pelo menos uma função do utilizador [ISO 12006-2:2013].\nUm bot:Building é uma parte do mundo físico ou do mundo virtual que está inerentemente localizado neste mundo e que tem uma extensão espacial tridimensional, que está contido num sítio de construção e que contém um ou mais pisos que estão conectados verticalmente.",
       "en" : "An independent unit of the built environment with a characteristic spatial structure, intended to serve at least one function or user activity [ISO 12006-2:2013]. A bot:Building is a part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent, is contained in a building site, and can contain one or more storeys that are vertically connected.",
       "it" : "Un'unità indipendente dell'ambiente costruito con una struttura spaziale caratteristica, destinato a servire almeno una funzione o attività degli utenti [ISO 12006-2:2013]. Un bot:Building è parte del mondo fisico o virtuale che si trova intrinsecamente in questo mondo e ha una estensione spaziale tridimensionale, è contenuto in un sito e può contenere uno o più piani che sono connessi verticalmente.",
@@ -575,8 +575,8 @@
       "fa" : "یک واحد مستقل با ساختار مکانی مشخص از محیط ساخت وساز، که برای ارایه‌ی حداقل یک عملکرد یا فعالیت کاربری در نظرگرفته شده است [ISO 12006-2:2013]. یک bot:Building یک بخش از دنیای فیزیکی یا یک دنیای مجازی است که اساسا در این دنیا قرار دارد و دارای حدود مکانی سه بعدی است، دریک سایت ساختمان قرار گرفته ، و میتواند دربرگیرنده‌ی یک یا چند طبقه باشد که به صورت عمودی به هم متصل شده اند.",
       "da" : "En uafhængig enhed i det bebyggede miljø med en karakteristisk rumlig struktur, beregnet til at betjene mindst en funktion eller brugeraktivitet [ISO 12006-2: 2013]. En bot:Building er en del af den fysiske verden eller en virtuel verden, der i sagens natur både er lokaliseret i denne verden og har en 3D rumlig afgrænsning, er indeholdt på et byggefelt og kan indeholde en eller flere etager, der er lodret forbundet.",
       "tr" : "Bir yapılı ortamına sahip, ve karakteri mekansal olan ve en az bir funksiyona veya kullanıcı etkinligini desteleyen bir bağımsız parcadir. ",
-      "ca" : "Unitat independent de l’entorn construït amb una estructura espacial característica, destinada a servir almenys una funció o activitat de l’usuari [ISO 12006-2: 2013]. Un bot:Building és tant una part del món físic o virtual que es troba inherentment situat en aquest món i que té una extensió espacial 3D, es troba en un emplaçament d’edificació, i pot contenir un o més pisos connectats verticalment.",
-      "nl" : "Een onafhankelijke entiteit met een ruimtelijke structuur die onderdeel is van de gebouwde omgeving, en bedoeld is om minimaal één functie of gebruikersactiviteit te bedienen [ISO 12006-2:2013]. Een bot:Building is deel van de fysieke wereld of een virtuele wereld dat zowel gelokaliseerd kan worden in deze wereld als een ruimtelijke omvang heeft, is deel van een gebouwsite, en kan één of meerder verdiepingen bevatten die verticaal verbonden zijn."
+      "nl" : "Een onafhankelijke entiteit met een ruimtelijke structuur die onderdeel is van de gebouwde omgeving, en bedoeld is om minimaal één functie of gebruikersactiviteit te bedienen [ISO 12006-2:2013]. Een bot:Building is deel van de fysieke wereld of een virtuele wereld dat zowel gelokaliseerd kan worden in deze wereld als een ruimtelijke omvang heeft, is deel van een gebouwsite, en kan één of meerder verdiepingen bevatten die verticaal verbonden zijn.",
+      "ca" : "Unitat independent de l’entorn construït amb una estructura espacial característica, destinada a servir almenys una funció o activitat de l’usuari [ISO 12006-2: 2013]. Un bot:Building és tant una part del món físic o virtual que es troba inherentment situat en aquest món i que té una extensió espacial 3D, es troba en un emplaçament d’edificació, i pot contenir un o més pisos connectats verticalment."
     },
     "attributes" : [ "external" ],
     "id" : "89",
@@ -632,7 +632,7 @@
     },
     "label" : {
       "IRI-based" : "Prion",
-      "undefined" : "prion"
+      "undefined" : "Prion"
     },
     "comment" : {
       "undefined" : "protein infectious particle; pathogenic type of misfolded protein"
@@ -724,7 +724,7 @@
     },
     "label" : {
       "IRI-based" : "InfectiousDisease",
-      "undefined" : "infectious disease"
+      "undefined" : "Infectious Disease"
     },
     "comment" : {
       "undefined" : "disease caused by an infection"
@@ -831,17 +831,6 @@
     "attributes" : [ "external" ],
     "id" : "133"
   }, {
-    "iri" : "https://w3id.org/bot#Zone",
-    "baseIri" : "https://w3id.org/bot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Zone",
-      "undefined" : "Zone"
-    },
-    "subClasses" : [ "89" ],
-    "attributes" : [ "external" ],
-    "id" : "90"
-  }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#GroupVII",
     "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
     "instances" : 0,
@@ -862,6 +851,17 @@
     },
     "id" : "60",
     "superClasses" : [ "2", "116" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Zone",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Zone",
+      "undefined" : "Zone"
+    },
+    "subClasses" : [ "89" ],
+    "attributes" : [ "external" ],
+    "id" : "90"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#Viremia",
     "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
@@ -934,7 +934,7 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "ViralInfection",
-      "undefined" : "viral infection"
+      "undefined" : "Viral Infection"
     },
     "comment" : {
       "undefined" : "an infection caused by a virus"
@@ -1037,7 +1037,7 @@
   }, {
     "instances" : 0,
     "union" : [ "78", "19", "97", "22" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "181"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -1050,7 +1050,7 @@
   }, {
     "instances" : 0,
     "union" : [ "105", "94", "143" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "114"
   }, {
     "iri" : "http://dbpedia.org/resource/Country",
@@ -1065,7 +1065,7 @@
   }, {
     "instances" : 0,
     "union" : [ "105", "143" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "193"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#NAryTreatmentInfo",
@@ -1116,7 +1116,7 @@
     },
     "label" : {
       "IRI-based" : "Infection",
-      "undefined" : "Infection"
+      "undefined" : "infection"
     },
     "subClasses" : [ "47", "50", "52" ],
     "comment" : {
@@ -1254,7 +1254,7 @@
     },
     "label" : {
       "IRI-based" : "Antiviral",
-      "undefined" : "Antiviral"
+      "undefined" : "antiviral"
     },
     "subClasses" : [ "9" ],
     "comment" : {
@@ -1289,7 +1289,7 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "IntracellularInfection",
-      "undefined" : "intracellular infection"
+      "undefined" : "Intracellular Infection"
     },
     "comment" : {
       "undefined" : "an infection that is located inside of the cells"
@@ -1390,7 +1390,7 @@
     },
     "label" : {
       "IRI-based" : "Protozoa",
-      "undefined" : "protozoa"
+      "undefined" : "Protozoa"
     },
     "comment" : {
       "undefined" : "unicellular, animal-like microorganisms, sometimes parasitic"
@@ -1430,7 +1430,7 @@
     },
     "label" : {
       "IRI-based" : "Microbe",
-      "undefined" : "microbe"
+      "undefined" : "Microbe"
     },
     "subClasses" : [ "27", "2", "118", "134" ],
     "comment" : {
@@ -1586,7 +1586,7 @@
     },
     "label" : {
       "IRI-based" : "Bacteria",
-      "undefined" : "bacteria"
+      "undefined" : "Bacteria"
     },
     "comment" : {
       "undefined" : "unicellular microorganisms from the domain Bacteria"
@@ -1599,7 +1599,7 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "ExtracellularInfection",
-      "undefined" : "extracellular infection"
+      "undefined" : "Extracellular Infection"
     },
     "comment" : {
       "undefined" : "an infection that is located outside of the cells (such as in the blood)"
@@ -1740,7 +1740,7 @@
     },
     "label" : {
       "IRI-based" : "Director",
-      "undefined" : "Director"
+      "undefined" : "director"
     },
     "comment" : {
       "undefined" : "person who leads a company"
@@ -2117,11 +2117,11 @@
     "id" : "195",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "148",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "198",
     "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "199",
     "type" : "owl:someValuesFrom"
@@ -2296,7 +2296,7 @@
     "comment" : {
       "en" : "MESH (Medical Subject Headings) level"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "5"
   }, {
     "range" : "10",
@@ -2347,9 +2347,9 @@
     },
     "domain" : "6",
     "comment" : {
-      "en" : "A related resource from which the described resource is derived"
+      "en" : "A name given to the resource"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "30"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#isActiveSubstanceOfDrug",
@@ -2365,7 +2365,7 @@
     "comment" : {
       "en" : "A relation between an active substance and a drug it is an ingredient of"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "32"
   }, {
     "iri" : "http://purl.org/dc/terms/date",
@@ -2388,7 +2388,7 @@
     "comment" : {
       "en" : "A point or period of time associated with an event in the lifecycle of the resource"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "33"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#givesDrug",
@@ -2423,7 +2423,7 @@
     "comment" : {
       "en" : "A relation between a symptom and one of the disorders that includes it"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "39"
   }, {
     "range" : "2",
@@ -2488,7 +2488,7 @@
     "comment" : {
       "en" : "How a drug is called"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "61"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#drugMarketedByCompany",
@@ -2518,7 +2518,7 @@
     "comment" : {
       "en" : "A related resource from which the described resource is derived"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "66"
   }, {
     "range" : "15",
@@ -2569,7 +2569,7 @@
     "comment" : {
       "undefined" : "A relation between two diseases in which one is in some way more general than the other"
     },
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "80"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#isBroaderThan",
@@ -2586,7 +2586,7 @@
     "comment" : {
       "en" : "A relation between two things in which one is in some way more general  than the other"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "82"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isDirectorOfCompany",
@@ -2631,7 +2631,7 @@
     "comment" : {
       "en" : "A relation between a disease and one of the drugs that can be used to deal with it"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "91"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#destroys",
@@ -2661,7 +2661,7 @@
     "comment" : {
       "undefined" : "A relation between two diseases in which one is in some way more specific than the other"
     },
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "81"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#affects",
@@ -2707,7 +2707,7 @@
     "comment" : {
       "en" : "A relation between a disease and one of the diseases it is in some way related to"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "111"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isMentionedIn",
@@ -2767,7 +2767,7 @@
     "comment" : {
       "en" : "How a disorder is called"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "125"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#codeSNOMED",
@@ -2782,7 +2782,7 @@
     "comment" : {
       "en" : "SNOMED (Systematized Nomenclature of Medicine) code"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "127"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isAffectedBy",
@@ -2900,7 +2900,7 @@
     "comment" : {
       "en" : "How an active substance is called"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "144"
   }, {
     "range" : "4",
@@ -2936,7 +2936,7 @@
     "comment" : {
       "en" : "ATC (Anatomical Therapeutic Chemical)  code"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "149"
   }, {
     "range" : "1",
@@ -2977,7 +2977,7 @@
     "comment" : {
       "en" : "A relation between two things in which one is in some way more specific than the other"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "83"
   }, {
     "range" : "4",
@@ -3025,7 +3025,7 @@
     "comment" : {
       "en" : "A legal document giving official permission to do something with the resource"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "162"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesDrugWithNameInCountry",
@@ -3055,7 +3055,7 @@
     "comment" : {
       "undefined" : "A relation between two active substances in which one is in some way more general than the other"
     },
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "84"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#codeMESH",
@@ -3070,7 +3070,7 @@
     "comment" : {
       "en" : "MESH (Medical Subject Headings) code"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "165"
   }, {
     "range" : "42",
@@ -3095,7 +3095,7 @@
     "comment" : {
       "en" : "How a paper is identified"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "169"
   }, {
     "range" : "24",
@@ -3135,7 +3135,7 @@
     "comment" : {
       "en" : "An issue with a paper"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "176"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#destroys",
@@ -3150,7 +3150,7 @@
     "comment" : {
       "undefined" : "A relation between two entities in which one destroys or inhibits the other"
     },
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "178"
   }, {
     "range" : "134",
@@ -3177,7 +3177,7 @@
     "comment" : {
       "en" : "A relation between a disease and one of its symptoms"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "182"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#section",
@@ -3192,7 +3192,7 @@
     "comment" : {
       "en" : "The part of a paper in which a paragraph is included"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "183"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#mentions",
@@ -3227,7 +3227,7 @@
       "es" : "es tratada con medicamento"
     },
     "domain" : "6",
-    "attributes" : [ "deprecated", "object", "external" ],
+    "attributes" : [ "deprecated", "external", "object" ],
     "id" : "186"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsWithDrug",
@@ -3241,21 +3241,21 @@
     "comment" : {
       "undefined" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the drug used."
     },
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "189"
   }, {
-    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder",
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient",
     "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
-    "range" : "45",
+    "range" : "73",
     "label" : {
-      "IRI-based" : "treatsDisorder",
-      "undefined" : "treats disorder"
+      "IRI-based" : "treatsPatient",
+      "undefined" : "treats patient"
     },
     "domain" : "190",
     "comment" : {
-      "undefined" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the respective disorder."
+      "undefined" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the patient treated."
     },
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "191"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isNarrowerThanActiveSubstance",
@@ -3270,7 +3270,7 @@
     "comment" : {
       "undefined" : "A relation between two active substances in which one is in some way more specific than the other"
     },
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "156"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isCausedBy",
@@ -3284,8 +3284,22 @@
     "comment" : {
       "undefined" : "A relation between two entities in which one is originated by the other"
     },
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "194"
+  }, {
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesWithName",
+    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
+    "range" : "197",
+    "label" : {
+      "IRI-based" : "commercializesWithName",
+      "undefined" : "commercializes with name"
+    },
+    "domain" : "196",
+    "comment" : {
+      "undefined" : "A relation between the class that represents the n-ary relationship of commercializing a drug with a name in a country; and the commercial name of the drug"
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "195"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesDrug",
     "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
@@ -3298,8 +3312,8 @@
     "comment" : {
       "undefined" : "A relation between the class that represents the n-ary relationship of commercializing a drug with a name in a country; and the commercialized drug."
     },
-    "attributes" : [ "object", "someValues" ],
-    "id" : "195"
+    "attributes" : [ "someValues", "object" ],
+    "id" : "198"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#isHeadquartersOfCompany",
     "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
@@ -3315,19 +3329,19 @@
     "attributes" : [ "object" ],
     "id" : "148"
   }, {
-    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsPatient",
+    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#treatsDisorder",
     "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
-    "range" : "73",
+    "range" : "45",
     "label" : {
-      "IRI-based" : "treatsPatient",
-      "undefined" : "treats patient"
+      "IRI-based" : "treatsDisorder",
+      "undefined" : "treats disorder"
     },
     "domain" : "190",
     "comment" : {
-      "undefined" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the patient treated."
+      "undefined" : "A relation between the class that represents the n-ary relationship between a doctor that uses a drug to treat a person affected by some disorder; and the respective disorder."
     },
-    "attributes" : [ "object", "someValues" ],
-    "id" : "198"
+    "attributes" : [ "someValues", "object" ],
+    "id" : "199"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesInCountry",
     "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
@@ -3340,21 +3354,7 @@
     "comment" : {
       "undefined" : "A relation between the class that represents the n-ary relationship of commercializing a drug with a name in a country; and the country where the drug is commercialized."
     },
-    "attributes" : [ "object", "someValues" ],
-    "id" : "199"
-  }, {
-    "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#commercializesWithName",
-    "baseIri" : "https://w3id.org/def/ViralDiseasesAndDrugs",
-    "range" : "197",
-    "label" : {
-      "IRI-based" : "commercializesWithName",
-      "undefined" : "commercializes with name"
-    },
-    "domain" : "196",
-    "comment" : {
-      "undefined" : "A relation between the class that represents the n-ary relationship of commercializing a drug with a name in a country; and the commercial name of the drug"
-    },
-    "attributes" : [ "datatype", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "200"
   }, {
     "range" : "95",
@@ -3376,7 +3376,7 @@
     "comment" : {
       "en" : "A relation between a drug and its active substance"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "202"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#levelATC",
@@ -3391,7 +3391,7 @@
     "comment" : {
       "en" : "ATC (Anatomical Therapeutic Chemical) level"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "203"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#causes",
@@ -3406,7 +3406,7 @@
     "comment" : {
       "undefined" : "A relation between two entities in which one originates the other"
     },
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "205"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#text",
@@ -3421,7 +3421,7 @@
     "comment" : {
       "en" : "The actual words of a paragraph or sentence"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "207"
   }, {
     "range" : "60",
@@ -3445,7 +3445,7 @@
     "comment" : {
       "undefined" : "A relation between two entities in which one is originated by the other"
     },
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "211"
   }, {
     "range" : "60",
@@ -3514,7 +3514,7 @@
     "comment" : {
       "en" : "A relation between a text (a paper, a paragraph or a sentece) and one of the entities it speaks of"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "219"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#companyName",
@@ -3543,7 +3543,7 @@
     "comment" : {
       "en" : "List of synonyms of a disease"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "223"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#marketsDrug",
@@ -3573,7 +3573,7 @@
     "comment" : {
       "en" : "A relation between a drug and one of the diseases it keeps from occurring"
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "225"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#scientificName",
@@ -3588,7 +3588,7 @@
     "comment" : {
       "en" : "The scientific name of a drug"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "226"
   }, {
     "range" : "90",
@@ -3626,22 +3626,6 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "233"
   }, {
-    "iri" : "https://w3id.org/def/DRUGS4COVID19#isContraindicatedTo",
-    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
-    "range" : "45",
-    "label" : {
-      "IRI-based" : "isContraindicatedTo",
-      "en" : "Is contraindicated to",
-      "es" : "Está contraindicado para",
-      "undefined" : "is contraindicated to"
-    },
-    "domain" : "78",
-    "comment" : {
-      "en" : "A relation between a drug and one of the diseases it is advised against"
-    },
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "234"
-  }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#hasEffect",
     "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
     "range" : "29",
@@ -3655,8 +3639,8 @@
     "comment" : {
       "en" : "A relation between a drug and an effect it causes"
     },
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "235"
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "234"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#hasActiveSubstance",
     "inverse" : "32",
@@ -3672,7 +3656,23 @@
     "comment" : {
       "en" : "A relation between a drug and its active substance"
     },
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "235"
+  }, {
+    "iri" : "https://w3id.org/def/DRUGS4COVID19#isContraindicatedTo",
+    "baseIri" : "https://w3id.org/def/DRUGS4COVID19",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "isContraindicatedTo",
+      "en" : "Is contraindicated to",
+      "es" : "Está contraindicado para",
+      "undefined" : "is contraindicated to"
+    },
+    "domain" : "78",
+    "comment" : {
+      "en" : "A relation between a drug and one of the diseases it is advised against"
+    },
+    "attributes" : [ "someValues", "external", "object" ],
     "id" : "236"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#treatsDisorder",
@@ -3688,7 +3688,7 @@
     "comment" : {
       "en" : "A relation between a drug and one of the diseases it deals with"
     },
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "someValues", "external", "object" ],
     "id" : "237"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#causedByDrug",
@@ -3705,7 +3705,7 @@
     "comment" : {
       "en" : "A relation between an effect and a drug that causes it"
     },
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "someValues", "external", "object" ],
     "id" : "238"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#hasDirector",
@@ -3737,7 +3737,7 @@
     "comment" : {
       "en" : "A relatiion between a whole and one of its parts"
     },
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "someValues", "external", "object" ],
     "id" : "241"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#destroys",
@@ -3752,7 +3752,7 @@
     "comment" : {
       "undefined" : "A relation between two entities in which one destroys or inhibits the other"
     },
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "242"
   }, {
     "iri" : "https://w3id.org/def/ViralDiseasesAndDrugs#destroys",
@@ -3767,7 +3767,7 @@
     "comment" : {
       "undefined" : "A relation between two entities in which one destroys or inhibits the other"
     },
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "243"
   }, {
     "iri" : "https://w3id.org/def/DRUGS4COVID19#hasSymptom",
@@ -3784,7 +3784,7 @@
     "comment" : {
       "en" : "A relation between a disease and one of its symptoms"
     },
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "someValues", "external", "object" ],
     "id" : "244"
   }, {
     "range" : "48",
@@ -3810,7 +3810,7 @@
       "es" : "trata enfermedad"
     },
     "domain" : "6",
-    "attributes" : [ "deprecated", "object", "external" ],
+    "attributes" : [ "deprecated", "external", "object" ],
     "id" : "187"
   }, {
     "range" : "93",
@@ -3857,7 +3857,7 @@
     "comment" : {
       "en" : "A resource that might provide additional information about the subject resource"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "254"
   }, {
     "iri" : "http://purl.org/dc/terms/abstract",
@@ -3880,7 +3880,7 @@
     "comment" : {
       "en" : "A summary of the resource"
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "255"
   } ]
 }
